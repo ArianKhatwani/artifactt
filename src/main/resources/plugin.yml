@@ -1,0 +1,15 @@
+name: UltimateArtifacts
+version: '${version}'
+main: ru.ultimateartifacts.UltimateArtifacts
+api-version: '1.21.11'
+author: OpenAI
+description: Fourteen command-only custom artifacts for Paper 1.21.11
+commands:
+  artifacts:
+    description: Manage UltimateArtifacts
+    usage: /artifacts <menu|give|list|reload|giveall>
+    aliases: [ua]
+permissions:
+  artifacts.admin:
+    description: Allows issuing and managing artifacts
+    default: op
